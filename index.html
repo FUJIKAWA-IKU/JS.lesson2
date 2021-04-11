@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <form name="form1">
+      <input type="text" name="text1" value="">
+      <table>
+        <tr class="calculator">
+          <td><input type="button" value="7" onclick="calc(7)"></td>
+          <td><input type="button" value="8" onclick="calc(8)"></td>
+          <td><input type="button" value="9" onclick="calc(9)"></td>
+          <td><input type="button" value="÷" onclick="calc('/')"></td>
+        </tr>
+        <tr class="calculator">
+          <td><input type="button" value="4" onclick="calc(4)"></td>
+          <td><input type="button" value="5" onclick="calc(5)"></td>
+          <td><input type="button" value="6" onclick="calc(6)"></td>
+          <td><input type="button" value="×" onclick="calc('*')"></td>
+        </tr>
+        <tr class="calculator">
+          <td><input type="button" value="1" onclick="calc(1)"></td>
+          <td><input type="button" value="2" onclick="calc(2)"></td>
+          <td><input type="button" value="3" onclick="calc(3)"></td>
+          <td><input type="button" value="-" onclick="calc('-')"></td>
+        </tr>
+        <tr class="calculator">
+          <td><input type="button" value="0" onclick="calc(0)"></td>
+          <td><input type="button" value="." onclick="calc('.')"></td>
+          <td><input type="button" value="+" onclick="calc('+')"></td>
+          <td><input type="button" value="=" onclick="calc('=')"></td>
+        </tr>
+      </table>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
